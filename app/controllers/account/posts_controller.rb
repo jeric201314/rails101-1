@@ -4,7 +4,5 @@ class Account::PostsController < ApplicationController
     @posts = current_user.posts
   end
 
-  def edit
-    @posts = current_user.posts
-  end
+
 end
